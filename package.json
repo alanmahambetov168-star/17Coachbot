@@ -1,0 +1,20 @@
+{
+  "name": "coachbot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CoachBot: Telegram-бот и мини-приложение (тренировки, питание, напоминания)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "grammy": "^1.30.0",
+    "pg": "^8.13.0"
+  }
+}
